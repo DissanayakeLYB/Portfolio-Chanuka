@@ -84,3 +84,26 @@ h1{
 #pgTitle {
     z-index: 2;
 }
+
+
+ul{
+    background:white;
+    position: fixed;
+    display:block;
+    top:0;
+    height: 100vh;
+    width: 20vw;
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+li{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+#home{
+    margin-top:20vh;
+}
