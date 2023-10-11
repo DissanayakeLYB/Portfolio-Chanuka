@@ -76,34 +76,74 @@ h1{
     bottom:0;
 }
 
-#pgTitle h2{
-    color:white;
-    z-index: 2;
-}
-
-#pgTitle {
-    z-index: 2;
-}
 
 
-ul{
-    background:white;
-    position: fixed;
-    display:block;
-    top:0;
+
+.sidebar {
     height: 100vh;
-    width: 20vw;
-    margin:0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: uppercase;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 250px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px; */
+    /* background: linear-gradient(45deg, #ffffff0c, #fff); */
+    z-index: 10;
+    top:0;
 }
 
-li{
-    padding-left: 20px;
-    padding-top: 20px;
-    font-weight: 400;
+.app-logo {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 18px;
 }
 
-#home{
-    margin-top:20vh;
+.app-logo img {
+    border-radius: 50%;
+    width: 50%;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 8px;
+    color: currentColor
+}
+
+.action-settings, a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+a:hover {
+    font-weight: 500;
+    color: blueviolet;
+    background: #943ee424;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px;
+}
+
+.action-settings {
+    justify-content: center;
+    font-weight: 500;
+    color: blueviolet;
+    background: #943ee424;
+}
+
+.material-icons {
+    font-size: 20px !important;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background: #943ee424;
+    margin: 16px 0;
 }
