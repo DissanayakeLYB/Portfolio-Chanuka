@@ -86,18 +86,22 @@ h1{
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
-    width: 250px;
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px; */
     /* background: linear-gradient(45deg, #ffffff0c, #fff); */
     z-index: 10;
     top:0;
 }
 
+.navigation{
+    position: fixed;
+    top: 20vh;
+}
+
 .app-logo {
     text-align: center;
     margin-top: 40px;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .app-logo img {
@@ -124,9 +128,9 @@ a {
 
 a:hover {
     font-weight: 500;
-    color: blueviolet;
-    background: #943ee424;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px;
+    color: rgb(0, 0, 0);
+    background: #f4f3f324;
+    box-shadow: rgba(253, 253, 253, 0.2) 0px 1px 2px;
 }
 
 .action-settings {
@@ -137,13 +141,7 @@ a:hover {
 }
 
 .material-icons {
-    font-size: 20px !important;
+    color: rgb(255, 255, 255);
+    font-size: 30px !important;
 }
 
-hr {
-    border: none;
-    height: 1px;
-    width: 100%;
-    background: #943ee424;
-    margin: 16px 0;
-}
