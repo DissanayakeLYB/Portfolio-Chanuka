@@ -94,7 +94,7 @@ h1{
 
 .navigation{
     position: fixed;
-    top: 20vh;
+    top: 30vh;
 }
 
 .app-logo {
@@ -120,7 +120,7 @@ a {
 .action-settings, a {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     cursor: pointer;
     padding: 8px;
     border-radius: 16px;
