@@ -24,7 +24,6 @@ body{
 }
 
 #Hero-Name-bg{    
-    /* background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0.3)); */
     height: 200vh;
     width: 100vw;
     margin:0;
@@ -43,8 +42,6 @@ h1{
     z-index:1;
     letter-spacing: 30px;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
-    
-    /* filter:blur(10px); */
     
 }
 
@@ -86,8 +83,6 @@ h1{
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
-    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px; */
-    /* background: linear-gradient(45deg, #ffffff0c, #fff); */
     z-index: 10;
     top:0;
 }
