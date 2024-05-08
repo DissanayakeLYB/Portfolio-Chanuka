@@ -68,16 +68,30 @@ nav ul li a:hover {
 
 
 section {
-    padding: 50px 0;
+    padding: 50px 0 0 0;
 }
 
-h2 {
+section div h2 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
 
-.project {
-    margin-bottom: 20px;
+section div p{
+    font-size: large;
+    font-weight: 600;
+}
+
+section div ul li{
+    list-style: none;
+}
+
+section div div{
+    margin: 0px 0px 30px 0px;
+
+}
+
+.sections{
+    text-align: center;
 }
 
 /* Responsive design */
@@ -93,6 +107,7 @@ h2 {
 }
 
 footer {
+    margin-top: 100px;
     background: #0030be;
     color: #ffe600;
     padding: 50px 0;

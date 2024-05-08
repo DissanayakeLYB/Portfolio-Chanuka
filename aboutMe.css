@@ -68,7 +68,7 @@ nav ul li a:hover {
 
 
 section {
-    padding: 50px 0;
+    padding: 50px 0 0 0;
 }
 
 h2 {
@@ -93,6 +93,7 @@ h2 {
 }
 
 footer {
+    margin-top: 100px;
     background: #0030be;
     color: #ffe600;
     padding: 50px 0;
